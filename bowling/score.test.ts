@@ -6,3 +6,4 @@ describe('score', () => {
       expect(score([0,0])).toEqual([0,0])
     })
   })
+  
