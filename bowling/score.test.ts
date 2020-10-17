@@ -1,8 +1,9 @@
 import { score } from "./score"
 
 
-fdescribe('score', () => {
+describe('score', () => {
     fit('should pass', () => {
-      expect(score([0,0])).toBe(0)
+      expect(score([0,0])).toEqual([0,0])
     })
   })
+  

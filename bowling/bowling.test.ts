@@ -73,6 +73,7 @@ describe('Bowling', () => {
     })
   })
 
+
   describe('Check game rules.', () => {
     it('rolls can not score negative points', () => {
       const rolls = [-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
