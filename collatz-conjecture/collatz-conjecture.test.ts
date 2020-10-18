@@ -2,6 +2,7 @@ import CollatzConjecture from './collatz-conjecture'
 
 describe('CollatzConjecture', () => {
   it('zero steps for one', () => {
+    console.log("run trest")
     const expected = 0
     expect(CollatzConjecture.steps(1)).toBe(expected)
   })
